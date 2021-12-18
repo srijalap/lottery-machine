@@ -59,7 +59,7 @@ int main()
 	int matchedLotteryNumbersAashis = compareLotteryNumbers(lottoNumbers, aashis.lotteryNumbers);
 	int matchedBonusNumbersAashis = compareLotteryNumbers(bonusNumbers, aashis.bonusNumbers);
 	cout << "\nLottery result for Aashis is " << matchedLotteryNumbersAashis << " + " << matchedBonusNumbersAashis << endl;
-	
+
 	printLotteryResult(matchedLotteryNumbersAashis, matchedBonusNumbersAashis);
 
 	return 0;
@@ -70,50 +70,50 @@ void printLotteryResult(int matchedLotteryNumbers, int matchedBonusNumbers) {
 	switch (matchedLotteryNumbers) {
 	case 7:
 		switch (matchedBonusNumbers) {
-			case 3:
-				winningAmount = "90 Million";
-				break;
-			case 2:
-				winningAmount = "80 Million";
-				break;
-			case 1:
-				winningAmount = "50 Million";
-				break;
-			default:
-				winningAmount = "40 Million";
-				break;
+		case 3:
+			winningAmount = "90 Million";
+			break;
+		case 2:
+			winningAmount = "80 Million";
+			break;
+		case 1:
+			winningAmount = "50 Million";
+			break;
+		default:
+			winningAmount = "40 Million";
+			break;
 		}
 		break;
 	case 6:
 		switch (matchedBonusNumbers) {
-			case 3:
-				winningAmount = "75 Million";
-				break;
-			case 2:
-				winningAmount = "65 Million";
-				break;
-			case 1:
-				winningAmount = "45 Million";
-				break;
-			default:
-				winningAmount = "35 Million";
-				break;
+		case 3:
+			winningAmount = "75 Million";
+			break;
+		case 2:
+			winningAmount = "65 Million";
+			break;
+		case 1:
+			winningAmount = "45 Million";
+			break;
+		default:
+			winningAmount = "35 Million";
+			break;
 		}
 		break;
 	case 5:
 		switch (matchedBonusNumbers) {
-			case 3:
-				winningAmount = "55 Million";
-				break;
-			case 2:
-				winningAmount = "41 Million";
-				break;
-			case 1:
-				winningAmount = "21 Million";
-				break;
-			default:
-				winningAmount = "11 Million";
-				break;
+		case 3:
+			winningAmount = "55 Million";
+			break;
+		case 2:
+			winningAmount = "41 Million";
+			break;
+		case 1:
+			winningAmount = "21 Million";
+			break;
+		default:
+			winningAmount = "11 Million";
+			break;
 		}
 		break;
 	default:

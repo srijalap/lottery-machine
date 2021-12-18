@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="final-assignment.cpp">
+    <ClCompile Include="final-assignment-lottery-machine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LotteryNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LotteryNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
