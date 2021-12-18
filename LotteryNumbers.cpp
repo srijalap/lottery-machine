@@ -35,7 +35,7 @@ vector<int> generateRandomNumbers(int n) {
 vector<int> getUserNumbers(int n) {
 	vector<int> userNumbers;
 	string generateAutomatically;
-	cout << "\nType 'yes' if you want the numbers to be generated automatically: \n";
+	cout << "\nType 'yes' if you want the numbers to be generated automatically. If not press any key and enter: \n";
 	cin >> generateAutomatically;
 
 	if (generateAutomatically == "yes") {
@@ -144,6 +144,6 @@ void printLotteryResult(int matchedLotteryNumbers, int matchedBonusNumbers) {
 		cout << "Congratulations!!! You won " << winningAmount << endl;
 	}
 	else {
-		cout << "Oh no!! Please, try again.";
+		cout << "Oh no!! Please, try again."<< endl ;
 	}
 }
